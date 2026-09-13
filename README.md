@@ -1,6 +1,6 @@
 # LedgerParity organization files
 
-![LedgerParity](assets/lockup.png)
+![LedgerParity](assets/banner.png)
 
 Organization-level files for the LedgerParity organization on GitHub.
 
