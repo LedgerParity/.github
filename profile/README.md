@@ -10,7 +10,8 @@ read-only, and reproducibly.
 claim. LedgerParity never signs, funds, or moves funds, and it never fabricates
 missing evidence.
 
-Full documentation: **[ledgerparity.github.io](https://ledgerparity.github.io/)** —
+Full documentation: **[ledgerparity.vercel.app](https://ledgerparity.vercel.app/)**
+(also available at [ledgerparity.github.io](https://ledgerparity.github.io/)) —
 overview, concepts, quick start, evidence discipline, and roadmap.
 
 ## Why it exists
