@@ -7,7 +7,7 @@ ledger into parity with ordinary classic Stellar payment operations — exactly,
 read-only, and reproducibly.
 
 **Developer preview.** No demonstrated operator adoption or production-readiness
-claim. LedgerParity never signs, funds, or moves funds, and it never fabricates
+claim. The reconciliation CLI never signs, funds, or moves funds, and it never fabricates
 missing evidence.
 
 Full documentation: **[ledgerparity.vercel.app](https://ledgerparity.vercel.app/)**
@@ -29,7 +29,9 @@ replayable.
 | [ledger-parity-core](https://github.com/LedgerParity/ledger-parity-core) | Matching engine and read-only Horizon ingestion. Exact stroop amounts; explicit network, sender, recipient, asset and interval identity; the unproven always stays `UNKNOWN`. |
 | [ledger-parity-connectors](https://github.com/LedgerParity/ledger-parity-connectors) | Validated import of application exports — JSON/CSV plus a release-pinned [SDP 7.0.0](https://github.com/LedgerParity/ledger-parity-connectors/blob/main/docs/SDP.md) payment CSV adapter. |
 | [ledger-parity-cli](https://github.com/LedgerParity/ledger-parity-cli) | Runnable operator workflow: configure → reconcile → capture replayable evidence → verify byte-identical offline replays. Includes dashboard and report verification. |
-| [-ledger-parity-contract](https://github.com/LedgerParity/-ledger-parity-contract) | Soroban smart contract for on-chain report hash storage and tamper-proof verification. |
+| [-ledger-parity-contract](https://github.com/LedgerParity/-ledger-parity-contract) | Owner-authorized report hash registration; synthetic Protocol 28 testnet validation and a read-only lifetime monitor. Hash registration does not prove report correctness. |
+
+Download [v0.3.1-preview](https://github.com/LedgerParity/ledger-parity-cli/releases/tag/v0.3.1-preview) for Windows, Linux or macOS, including checksums and the offline dashboard.
 
 ## Try it
 
