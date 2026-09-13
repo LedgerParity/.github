@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" width="300" height="72" role="img" aria-label="LedgerParity">
+  <rect x="18" y="16" width="34" height="10" rx="5" fill="#3FE0C4"/>
+  <rect x="12" y="38" width="34" height="10" rx="5" fill="#7A5CFF"/>
+  <text x="72" y="47" font-family="'Space Grotesk','Avenir Next','Segoe UI',sans-serif" font-size="34" font-weight="600" letter-spacing="-0.5" fill="#F3F1E7">Ledger<tspan fill="#7A5CFF">Parity</tspan></text>
+</svg>
