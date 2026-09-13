@@ -28,7 +28,8 @@ replayable.
 |---|---|
 | [ledger-parity-core](https://github.com/LedgerParity/ledger-parity-core) | Matching engine and read-only Horizon ingestion. Exact stroop amounts; explicit network, sender, recipient, asset and interval identity; the unproven always stays `UNKNOWN`. |
 | [ledger-parity-connectors](https://github.com/LedgerParity/ledger-parity-connectors) | Validated import of application exports — JSON/CSV plus a release-pinned [SDP 7.0.0](https://github.com/LedgerParity/ledger-parity-connectors/blob/main/docs/SDP.md) payment CSV adapter. |
-| [ledger-parity-cli](https://github.com/LedgerParity/ledger-parity-cli) | Runnable operator workflow: configure → reconcile → capture replayable evidence → verify byte-identical offline replays. |
+| [ledger-parity-cli](https://github.com/LedgerParity/ledger-parity-cli) | Runnable operator workflow: configure → reconcile → capture replayable evidence → verify byte-identical offline replays. Includes dashboard and report verification. |
+| [-ledger-parity-contract](https://github.com/LedgerParity/-ledger-parity-contract) | Soroban smart contract for on-chain report hash storage and tamper-proof verification. |
 
 ## Try it
 
