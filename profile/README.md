@@ -1,4 +1,4 @@
-![LedgerParity banner](assets/banner.png)
+![LedgerParity banner](https://raw.githubusercontent.com/LedgerParity/.github/main/assets/banner.png)
 
 # LedgerParity
 
@@ -31,7 +31,7 @@ replayable.
 | [ledger-parity-cli](https://github.com/LedgerParity/ledger-parity-cli) | Runnable operator workflow: configure → reconcile → capture replayable evidence → verify byte-identical offline replays. Includes dashboard and report verification. |
 | [-ledger-parity-contract](https://github.com/LedgerParity/-ledger-parity-contract) | Owner-authorized report hash registration; synthetic Protocol 28 testnet validation and a read-only lifetime monitor. Hash registration does not prove report correctness. |
 
-Download [v0.3.1-preview](https://github.com/LedgerParity/ledger-parity-cli/releases/tag/v0.3.1-preview) for Windows, Linux or macOS, including checksums and the offline dashboard.
+Download [v0.3.2-preview](https://github.com/LedgerParity/ledger-parity-cli/releases/tag/v0.3.2-preview) for Windows, Linux or macOS, including checksums and the offline dashboard.
 
 ## Try it
 
